@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.Button {
+    @at-root {
+        & {
+            padding: 1em;
+            border: 2px solid currentColor;
+            border-radius: 2px;
+            font-weight: bold;
+        }
+    }
+}
