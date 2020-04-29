@@ -1,0 +1,103 @@
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 0.1rem;
+  margin-bottom: 0.5em;
+}
+
+.list {
+  position: relative;
+  padding: 0.5rem;
+  border-bottom: 1px solid #c0c0c0;
+
+  & input {
+    display: none;
+  }
+
+  &:last-child {
+    border-bottom: 0px;
+  }
+  & label {
+    top: 50%;
+  }
+  & label:before{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #2196F3;
+    content: ' ';
+    border-radius: 10px;
+    float: left;
+    margin:0 10px;
+    cursor: pointer;
+  }
+  & label:after{
+    display: none;
+    top: 0.75em;
+    left: 1.4em;
+    content: '';
+    color: #2196F3;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #2196F3;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  & input:checked + label:after {
+    display: block;
+  }
+}
+
+.date {
+  margin-right: 5px;
+  width: 2.5em;
+  background-color: #f9f9f9;
+
+  & input {
+    display: none;
+  }
+
+  & label {
+    text-align: center;
+  }
+  & label > div {
+    border: 1px solid #f0f0f0;
+    border-radius: 5px 5px;
+  }
+
+  & input:checked + label {
+    color: #2196f3;
+  }
+  & input:checked + label > div {
+    border-color: #2196f3;
+  }
+}
+
+.date-list {
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 0.5em;
+  margin: 0.7em;
+
+  & li {
+    display: inline-block;
+  }
+}
+
+.fa-button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #03a9f4;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+
+  &:before {
+    position: relative;
+    top: 20%;
+    color: #ffffff;
+    content: '+';
+  }
+}
