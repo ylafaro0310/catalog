@@ -105,3 +105,23 @@
   }
   margin: 5px 5px 30px 5px;
 }
+
+.btn {
+  width: 8em;
+  height: 3em;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border: 1px solid #2196F3;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.btn-danger {
+  border: 1px solid #f32121;
+  background-color: #f32121;
+  color: #fff;
+}
