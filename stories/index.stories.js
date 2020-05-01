@@ -1,10 +1,18 @@
 import './_index.scss';
+import './form.scss';
+import './card.scss';
+import './icon.scss';
+
 import button from './button.html';
+import form from './form.html';
+import card from './card.html';
+import icon from './icon.html';
 
 export default {
-  title: 'Demo',
+  title: 'Catalog',
 };
 
-export const Heading = () => '<h1>Hello World</h1>';
-
 export const Button = () => button;
+export const Form = () => form;
+export const Card = () => card;
+export const Icon = () => icon;

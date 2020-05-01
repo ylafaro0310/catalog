@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+  .arrow-up {
+    width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color: #565656 #565656 transparent transparent;
+    transform: rotate(-45deg);
+  }
+
+  .arrow-down {
+    width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color:  transparent transparent #565656 #565656;
+    transform: rotate(-45deg);
+  }
+  
+  .arrow-left {
+    width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color:  transparent transparent #565656 #565656;
+    transform: rotate(45deg);
+  }
+
+  .arrow-right {
+    width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color: #565656 #565656 transparent transparent;
+    transform: rotate(45deg);
+  }
