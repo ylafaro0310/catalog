@@ -1,0 +1,27 @@
+.cal-header {
+    display: flex;
+    justify-content: space-between;
+
+    &:nth-child(1),
+    :nth-child(3) {
+        cursor: pointer;
+    }
+}
+
+.cal-body {
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 0;
+    & input {
+      display: none;
+    }
+    & td > label {
+      display: block;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    & td > input:checked ~ label {
+      background: #2196f3;
+      border-radius: 50%;
+    }
+}
