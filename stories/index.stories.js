@@ -1,8 +1,10 @@
+import React from 'react';
 import './_index.scss';
 import './form.scss';
 import './card.scss';
 import './icon.scss';
 import './calendar.scss';
+
 
 import button from './button.html';
 import form from './form.html';
@@ -13,6 +15,7 @@ import calendar from './calendar.html';
 export default {
   title: 'Catalog',
 };
+
 
 export const Button = () => button;
 export const Form = () => form;
